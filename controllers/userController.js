@@ -12,7 +12,6 @@ const registerUser = asyncHandler(async (req, res) => {
     phoneNumber,
     account_type,
     balance,
-    profilePicture,
   } = req.body;
 
   // Check If user Exist
