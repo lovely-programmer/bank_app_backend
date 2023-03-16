@@ -33,7 +33,6 @@ const registerUser = asyncHandler(async (req, res) => {
     password: hashedPassword,
     address,
     phoneNumber,
-    profilePicture,
     account_type,
     balance,
   });
